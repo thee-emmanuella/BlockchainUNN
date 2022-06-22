@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Merriweather&family=Montserrat:wght@400;700;900&family=Sacramento&family=Ubuntu:wght@400;700&display=swap');
+body {
+  line-height: 1.8;
+  color: rgb(0,100,0);
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgb(0,100,0);
+}
+
+.title-sm {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+a {
+  font-weight: 700;
+  transition: all 0.4s ease;
+}
+
+img {
+  width: 100%;
+}
+
+small {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.navbar {
+  border-bottom: 1px solid rgb(0,100,0);
+}
+
+
+.logo-text img {
+  width: 250px;
+  height: 50px;
+}
+
+
+.navbar .nav-link {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active {
+color: rgb(50,205,50);
+}
+
+.nav-item dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#home {
+  background: linear-gradient(rgba(0,100,0,0.3) , rgba(0,100,0,0.9) ), url(../Images/pexels-fauxels-3182773.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+#home h1 {
+  font-weight: 700;
+  color: rgb(255,255,255);
+}
+
+#home p {
+  max-width: 550px;
+  margin: 18px auto;
+  color: rgba(255,255,255,0.9);
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  border-radius: 0;
+}
+
+.btn-brand {
+  background-color: rgb(50,205,50);
+  color: rgb(255, 255, 255);
+}
+
+.btn-brand:hover {
+  background-color: rgb(0,255,35);
+  color: rgb(255, 255, 255);
+}
+
+.section-intro {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-intro .hline {
+  width: 120px;
+  height: 2px;
+  background-color: rgba(0,0,0,0.1);
+  margin: 16px auto 0 auto;
+}
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  color:  rgb(0,255,35);
+  border: 1px solid;
+  border-color: rgb(0,255,35);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.programs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  margin: auto;
+}
+
+.team-item {
+  border: 3px solid;
+  border-color: rgb(0,100,0);
+  border-radius: 8px;
+  padding: 2px;
+  margin-bottom: 24px;
+}
+
+form .form-control {
+  border-radius: 0;
+}
+
+form .form-control:focus {
+  box-shadow: none;
+  border-color: rgb(0,100,0);
+}
+
+#cta {
+  background-color: rgb(0,100,0);
+}
+
+.footer-top {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .footer-links a,
+footer .social-icons a {
+  color: rgba(0,100,0,0.5);
+}
+
+footer .social-icons a {
+  font-size: 24px;
+}
+
+footer .footer-links a {
+  display: block;
+}
+
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+  color: rgb(0,100,0);
+}
